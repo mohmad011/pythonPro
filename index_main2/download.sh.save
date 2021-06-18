@@ -1,0 +1,12 @@
+
+echo "Inter URL For Video:"
+read url
+
+youtube-dl -f --no-playlist $url
+
+echo "Inter Quality:"
+read q
+
+youtube-dl -f $q https://www.youtube.com/watch?v=niUaRPODJRs&list=PLP3WWltp8c0P6fQZGzH1Oih1sZZhBgP75&index=2 $url
+
+break
