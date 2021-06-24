@@ -1,0 +1,11 @@
+open terminal
+
+run this command
+
+1- source ~/.bashrc
+2- nano ~/.bashrc
+then add your alias
+EX: alias yst="yarn start script"
+then press => Ctrl + x
+              Shift + y
+              Enter
